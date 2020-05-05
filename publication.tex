@@ -1,0 +1,26 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{authblk}
+
+\begin{document}
+\title{An open-source shipping container lab optimised for high-throughput COVID diagnostics}
+\author{Marcus Walker, Matthew Donora, Anthony Thomas, Alex James Philips, Alex Perkins, Neil MacKenzie, Davide Danovi, Helene Steiner, Thomas Meany}
+\date{\today}
+\maketitle
+
+\textbf{ABSTRACT}~We have developed a modular standardised design for a biosafety level 2+ lab in a standard 40ft shipping container optimised for high-th,roughput COVID testing. By using opensource hardware and wetware we demonstrate a reproducible workflow for experimental validation using available resources. The resulting design is a 300sqft laboratory which can be deployed along any existing trade route with a maximum daily testing capacity of 2400 tests/day at a price of £35/ test. We demonstrate an entirely replicable design and discuss its suitability for diagnostic testing in scenrarios including both high density urban environments and remote resource-limited areas. We have experimentally validated our process flow using both RNA controls and infected patient samples (n=20) in order to confirm a sensitivey of --- and false positive/negative rate of --- per run alongside interrun error of ----. 
+
+\section{Introduction}
+
+Since reports of the SARS-nCoV2 virus~\cite{Zhou2020} there have been a range of publications appearing on novel diagnostic approaches. These inlude serology tests, such as enzyme-linked immunosorbent assays (ELISA), intended to detect the presence of antibodies in patient blood samples~\cite{Amanat2020, Li2020}. Point-of-care laterflow assays with rapid readouts have appeared commercially~\cite{Sheridan2020,Sheridan2020a}. Next generation sequencing can been used to provide high-throughput RNA sequence data~\cite{AyaanHossain2020} offering unprecidented viral monitoring capability. Furthermore, novel detection mathods based on clustered regularly interspaced short palindromic repeats (CRISPR) have been demonstrated and require minimal infrastructure~\cite{Curti2020,Broughton2020,Zhang}. In addition, loop based isothermal amplification (LAMP) assays, have also been shown to to be sensitive and are not reliant on complex equipment~\cite{Huang,Schmid-Burgk2020}. However, desite these impressive demonstrations, realtime polymerease chain reaction (RT-PCR) assays have remained the gold-standard method used for high sensitivity clinical confirmation of infection~\cite{NHSEnglandandNHSImprovement2020}.
+
+Despite the reliance on RT-PCR and there has been limited examples of reproducible laboratories optimised for high-throughput testing. There have been separate examples of process optimisation for the assay including, optimal primer/probe combinations~\cite{Casto2020}, sensitivity and analytical comparisons of comercially available qPCR kits~\cite{Vogels2020}, optimised procedures for RNA extractions~\cite{Ladha,Grant2020}. However, no papers to-date have coupled the complexity of laboratory infrastructure design and the molecular assy process optimisation. 
+
+In this work we outline the process flow required for validating a qPCR assay using available resources and, where possible, using opensource wetware to do so. We use an opensource bio on magnetic beads (BOMB) RNA extraction process~\cite{Oberacker2019}. We validate the assay using a number of locally sourced (UK) qPCR kits and commercially availble primers and probes as well as plasmid and RNA controls. Using opensource lab hardware (Opentrons OT2) we automate the steps required for performing the assay with a maximum daily testing capacity of 2400 samples~\cite{}. We demonstrate the software required for the collection of patient data, monitoring through the assay and finally presentation of result compliant with the health level 7 (HL7) international standard for diagnostic reporting~\cite{}. Finally, we present the required laboratory infrastructure required to comply with ISO 15189 (International standard for medical laboratories) in order to undertake these diagnostic assays~\cite{}. Our design uses a 40 foot (or 300sqft floorspace) shipping container which is an internationally standardised unit well suited for modular rapid response laboratories and have been deployed previously during an ebola outbreak~\cite{Wolfel2015,Raftery2018,BKosloff2013,Bridges2014}. We discuss three rapid-response scenarios refelecting the diversity of the international crisis, a centralised high-density urban facility, a remote lab in a resource-poor location and a local response unit located at a school, carehome or workplace. 
+
+\section{Acknowledgements}
+We thank Massimo Majora and the DNA electronics team for lending equipment for the duration of experimental procedures. We thank Anna Pendrix Russel and Zuzzanna Brasko of Sixfold Biosciences for lending equipment for the duration of experiments. We acknowledge the support of IDT, TWIST, ThermoFisher Scientific, VWR international, Starlab, Youseq, PCR biosystems for expidted delivery, samples and other support. PLEASE dont forget to give thanks.. 
+
+\bibliographystyle{plain}
+\bibliography{references}
+
+\end{document}

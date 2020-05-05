@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2014)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: publication.aux
+The style file: plain.bst
+Database file #1: references.bib
+Warning--empty institution in AyaanHossain2020
+Warning--empty institution in BKosloff2013
+Warning--there's a number but no volume in Curti2020
+Warning--empty year in Huang
+Warning--empty institution in Ladha
+Warning--empty year in Ladha
+Warning--empty institution in NHSEnglandandNHSImprovement2020
+Warning--empty institution in Zhang
+Warning--empty year in Zhang
+You've used 21 entries,
+            2118 wiz_defined-function locations,
+            623 strings with 10955 characters,
+and the built_in function-call counts, 13106 in all, are:
+= -- 1205
+> -- 1114
+< -- 6
++ -- 443
+- -- 422
+* -- 1076
+:= -- 2148
+add.period$ -- 63
+call.type$ -- 21
+change.case$ -- 279
+chr.to.int$ -- 0
+cite$ -- 30
+duplicate$ -- 436
+empty$ -- 531
+format.name$ -- 422
+if$ -- 2642
+int.to.chr$ -- 0
+int.to.str$ -- 21
+missing$ -- 16
+newline$ -- 108
+num.names$ -- 42
+pop$ -- 275
+preamble$ -- 1
+purify$ -- 253
+quote$ -- 0
+skip$ -- 457
+stack$ -- 0
+substring$ -- 456
+swap$ -- 242
+text.length$ -- 6
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 84
+warning$ -- 9
+while$ -- 54
+width$ -- 23
+write$ -- 221
+(There were 9 warnings)
